@@ -5,344 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     <div>
-        <!-- header content -->
-        <header class=" header active" data-header>
-        <!-- Just an image -->
-             <!-- <nav class="navbar navbar-light bg-light">
-                 <a class="navbar-brand" href="#">
-                     <img src="./image/logo.svg" width="300" height="30" alt="">
-                </a>
-                        
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a href="#" class="nav-link active">pricing</a>
-                    </li>
-  
-                    <li class="navbar-item">
-                        <a href="#" class="nav-link">product</a>
-                    </li>
-  
-                    <li class="navbar-item">
-                        <a href="#" class="nav-link">About Us</a>
-                    </li>
-  
-                    <li class="navbar-item">
-                        <a href="#" class="nav-link">courses</a>
-                    </li>
-  
-                    <li class="navbar-item">
-                        <a href="#" class="nav-link">community</a>
-                    </li>
-  
-                    
-  
-                </ul>
 
-             </nav> -->
-        </header>  
+       <header>
+        <div class="logo">
+          <img src="./image/logo.svg" alt="">
+        </div>
 
-        <main>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Career</a></li>
+        </ul>
+        <button class="normal pop">Requst invite</button>
+        <button class="droupdown-toggle"><img src="./image/icon-hamburger.svg" alt=""></button>
+       </header>
 
-           <article>
-        
-        <!-- first section -->
-         <section class=" why-choose-c">
-        <div class="container mt-4" >
-            <div class="row">
-              <div class="col">
-                 
-                <h1 class="ab"> Next generation digital banking </h1>
 
-                <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-                       
-                <div class="top1 mt-3">
-                               
 
-                  <button type="button" class="btn btn- top2">Requst invite</button>
+     <section class="details" id="section-p1">
+       <div class="brief-details">
+        <h1>Next generation <br> digital banking</h1>
+        <p>Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+        <button class="normal">Requst invite</button>
+       </div>
+         <div class="mockup">
+          <img src="./image/image-mockups.png" alt="">
+         </div>
+     </section>
+
+     <section class="reason" id="section-p2">
+          <div class="world">
+            <h2 class="">Why choose Easybank?</h2>
+           <p> We leverage Open Banking to turn your bank account into your financial hub. <br> Control your finances like never before.</p>
+          </div>
+          <div class="reason-pro">  
+                <div class="reason-details">
+                   <img  class="apio" src="./image/icon-online.svg"  alt="">
+                   <h1 class="online mt-4"> Online Banking</h1>
+                   <p class=" mt-3"> Our modern web and mobile applications allow you to 
+                     keep track of your finances wherever you are in the world.
+                   </p> 
                 </div>
-
-               
-
-              </div>
-              <div class="col">
-                
-                 <img class="olade" src="./image/bg-intro-desktop.svg" alt=""> 
-                  <img  class="oladi" src="./image/image-mockups.png" alt="erorr"> 
-             
-              </div>
-            </div>
-          </div> 
-        </section>
-
-        <!-- second section -->
-
-        <section class="why-choose-a">
-
-           <div class="why-choose-b">  
-                  <div class="world">
-                     <h2 class="">Why choose Easybank?</h2>
-                     <p> We leverage Open Banking to turn your bank account into your financial hub. <br> Control your finances like never before.</p>
-                </div>
-                  <div class="container">
-                      <div class="row">
-                          <div class="col mt-4">
-                               
-                            <img  class=" mt-5" src="./image/icon-online.svg" alt="">
-                            <h1 class="online mt-4"> Online Banking</h1>
-                              <p class=" mt-3"> Our modern web and mobile applications allow you to 
-                                  keep track of your finances wherever you are in the world.
-                              </p> 
-                              
-
-                          </div>
-                            <div class="col mt-4">
-
-                                <!--  -->
-
-                                
-                               
-                                    <img  class=" mt-5" src="./image/icon-budgeting.svg" alt="">
-                                    <h1 class="online mt-4"> Fast Onboarding</h1>
-                                      <p class=" mt-3">We don’t do branches. Open your account in minutes online and start taking control of your finances right away. 
-                                      </p> 
-                                      
-        
-                                
-
-                                <!--  -->
-                            </div>
-                            <div class="col mt-4">
-                                
-                                        <img  class=" mt-5" src="./image/icon-onboarding.svg" alt="">
-                                        <h1 class="online mt-4"> Simple Budgeting</h1>
-                                          <p class=" mt-3">See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.
-                                          </p> 
-                                          
-            
-                                    
-    
-                               
-                                        </div>
-                           <div class="col mt-4">
-                            
-              
-
-                                <!--  -->
-
-                                
-                               
-                                    <img  class=" mt-5" src="./image/icon-budgeting.svg" alt="">
-                                    <h1 class="online mt-4">  Open API</h1>
-                                      <p class=" mt-3"> Manage your savings, investments, pension, and much more from one account. 
-                                        Tracking your money has never been easier. 
-                                      </p> 
-                                      
-        
-                                
-
-                                <!--  -->
-                  
-
-                           </div>
-
-                        </div>
-
-                </div>
-                 
+                <div class="reason-details">
+                  <img  class=" mt-5" src="./image/icon-budgeting.svg" alt="">
+                  <h1 class="online mt-4"> Fast Onboarding</h1>
+                  <p class=" mt-3"> We don’t do branches. Open your account in minutes online and start taking control of your finances right away. 
+                  </p> 
+               </div>
+               <div class="reason-details">
+                <img  class=" mt-5" src="./image/icon-onboarding.svg" alt="">
+                <h1 class="online mt-4"> Simple Budgeting</h1>
+                <p class=" mt-3">See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.
+                </p> 
+             </div>
+             <div class="reason-details">
+              <img  class=" mt-5" src="./image/icon-api.svg" alt="">
+              <h1 class="online mt-4">  Open API</h1>
+              <p class=" mt-3"> Manage your savings, investments, pension, and much more from one account. 
+                Tracking your money has never been easier.
+              </p> 
            </div>
 
-        </section>
+           </div>
+     </section>
 
-        <!-- third section -->
-           <section>
+     <section class="article" id="section-p2">
+      <h1>Latest Article</h1>
+      <div class="article-ins">
+      <div class="article-info">
+        <img src="./image/image-currency.jpg" alt="">
+        <small><p>By Claire Robinson </p></small>
+        <h1>Receive money in any currency with no fees </h1>
+         <p> The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single  </p> 
+      </div>
+      <div class="article-info">
+        <img src="./image/image-restaurant.jpg" alt="">
+        <small><p>By Claire Robinson </p></small>
+        <h1>Receive money in any currency with no fees </h1>
+         <p> The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single  </p> 
+      </div>
+      <div class="article-info">
+        <img src="./image/image-plane.jpg" alt="">
+        <small><p>By Claire Robinson </p></small>
+        <h1>Receive money in any currency with no fees </h1>
+         <p> The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single  </p> 
+      </div>
+      <div class="article-info">
+        <img src="./image/image-confetti.jpg" alt="">
+        <small><p>By Claire Robinson </p></small>
+        <h1>Receive money in any currency with no fees </h1>
+         <p> The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single  </p> 
+      </div>
+    </div>
+     </section>
 
+     
+     <footer>
+      <div class="ft-one">
+      <div class="social-link">
+        <img src="./image/logo.svg" alt="" class="logo-img">
 
-           
-            <div class="why-choose-b">  
-              <div class="world">
-                 <h2 class=" mt-5">Latest Article</h2>
-            </div>
-              <div class="container">
-                  <div class="row">
-                      <div class="col mt-4">
-                           
-                        <img  class=" currency mt-5" src="./image/image-currency.jpg" alt="">
-                        <small><p>By Claire Robinson </p></small>
-                        <h1 class="online mt-4"> Receive money in any currency with no fees </h1> 
-                          <p class=" mt-3"> The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single 
-                          </p> 
-                         
+        <ul class="social-link-list">
+          <li><a href="#Facebook"><img src="./image/icon-facebook.svg" alt=""></a></li>
+          <li><a href="#Facebook"><img src="./image/icon-youtube.svg" alt=""></a></li>
+          <li><a href="#Facebook"><img src="./image/icon-twitter.svg" alt=""></a></li>
+          <li><a href="#Facebook"><img src="./image/icon-pinterest.svg" alt=""></a></li>
+          <li><a href="#Facebook"><img src="./image/icon-instagram.svg" alt=""></a></li>
+        </ul>
+      </div>
 
-                      </div>
-                        <div class="col mt-4">
+       <ul class="ft-nav-1">
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">Blog</a></li>
+       </ul>
 
-                            <!--  -->
+       <ul class="ft-nav-2">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
 
-                            
-                           
-                                <img  class=" currency mt-5" src="./image/image-restaurant.jpg" alt="">
-                                <small><p>By Wilson Hutton</p></small>
-                               <h1 class="online mt-4"> Treat yourself without worrying about money</h1> 
-                                  <p class=" mt-3">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you
-                                  </p> 
-                                  
+      </div>
+      <div class="ft-two">
+        <button class="normal">Requst invite</button>
+        <h4> © Easybank. All Rights Reserved</h4>
+      </div>
+     </footer>
+
     
-                            
-
-                            <!--  -->
-                        </div>
-                        <div class="col mt-4">
-                            
-                                    <img  class=" currency mt-5" src="./image/image-plane.jpg" alt="">
-                                    <small><p> By Claire Robinson</p></small>
-                                    <h1 class="online mt-4"> Simple Budgeting</h1>
-                                      <p class=" mt-3">See exactly where your money goes each month. Receive notifications when you’re close to hitting your limits.
-                                      </p> 
-                                      
-        
-                                
-
-                           
-                                    </div>
-                       <div class="col mt-4">
-                        
-          
-
-                            <!--  -->
-
-                            
-                           
-                                <img  class=" currency mt-5" src="./image/image-confetti.jpg" alt="">
-                                <small><p>By Wilson Hutton</p></small>
-                                <h1 class="online mt-4"> Our invite-only Beta accounts are now live! </h1>
-                                  <p class=" mt-3"> After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...
-                                  </p> 
-                                  
-    
-                            
-
-                            <!--  -->
-              
-
-                       </div>
-
-                    </div>
-
-            </div>
-             
-       </div>
-
-           </section>
-
-      </article>
-      </main>  
-
-        <!-- footer -->
-
-        <footer class="text-center text-lg-start kilo text-muted">
-          <!-- Section: Social media -->
-           <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"> 
-           
-        
-            <!-- Right -->
-           
-            <!-- Right -->
-          </section>
-          <!-- Section: Social media -->
-        
-          <!-- Section: Links  -->
-          <section class="">
-            <div class="container text-center text-md-start mt-5"> 
-              <!-- Grid row -->
-              <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <!-- Content -->
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    </i> <img class="f-logo" src="./image/logo.svg" alt="">
-                  </h6>
-                  <p>
-
-                    <a href=""><img src="./image/icon-youtube.svg" alt=""></a>
-
-                   <a href=""> <img src="./image/icon-pinterest.svg" alt="#"></a>
-                   <a href=""> <img src="./image/icon-instagram.svg" alt="#"> </a>
-                   <a href=""> <img src="./image/icon-facebook.svg" alt="#"></a>
-                   <a href=""> <img src="./image/icon-twitter.svg" alt="#"></a>
-                  </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    <!-- Products -->
-                  </h6>
-                  <p>
-                    <a href="#!" class="text-reset">About Us</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">What We Do</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">FAQ</a>
-                  </p>
-                 
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <!-- Links -->
-                   <h6 class="text-uppercase fw-bold mb-4">
-                    <!-- Useful links -->
-                  </h6> 
-                  <p>
-                    <a href="#!" class="text-reset">career</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Blog</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-reset">Contact us</a>
-                  </p>
-                  
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <!-- Links -->
-             
-                  <div class="top1 mt-3">
-                               
-
-                    <button type="button" class="btn btn- top2">Requst invite</button>
-                  </div>
-  
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!-- Grid row -->
-            </div>
-          </section>
-          <!-- Section: Links  -->
-        
-          <!-- Copyright -->
-          <div class="text-center p-4" style="background-color: 0, 0, 0.5;">
-            © 2023 Copyright:
-            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">abdulwahababdullahi.com</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
+       
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

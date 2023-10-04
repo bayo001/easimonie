@@ -1,0 +1,12 @@
+const toggle_btn = document.querySelector('.droupdown-toggle');
+const navigation = document.querySelector('.navigation');
+
+toggle_btn.addEventListener('click', ()=> {
+    if(navigation.classList.contains('active')){
+        navigation.classList.remove('active')
+    } else {
+        navigation.classList.add('active')
+    }
+
+   
+})
